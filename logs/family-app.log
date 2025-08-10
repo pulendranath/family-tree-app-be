@@ -1,0 +1,174 @@
+2025-08-09T13:41:03.326+05:30  INFO 33532 --- [restartedMain] com.example.family.FamilyApplication     : Starting FamilyApplication using Java 23.0.2 with PID 33532 (C:\Users\pulim\IdeaProjects\updated\family-tree-app\target\classes started by pulim in C:\Users\pulim\IdeaProjects\updated\family-tree-app)
+2025-08-09T13:41:03.340+05:30 DEBUG 33532 --- [restartedMain] com.example.family.FamilyApplication     : Running with Spring Boot v3.0.0, Spring v6.0.2
+2025-08-09T13:41:03.343+05:30  INFO 33532 --- [restartedMain] com.example.family.FamilyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T13:41:03.465+05:30  INFO 33532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-09T13:41:03.467+05:30  INFO 33532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-09T13:41:05.220+05:30  INFO 33532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T13:41:05.397+05:30  INFO 33532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 6 JPA repository interfaces.
+2025-08-09T13:41:06.941+05:30  INFO 33532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T13:41:06.954+05:30  INFO 33532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T13:41:06.954+05:30  INFO 33532 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-08-09T13:41:07.130+05:30  INFO 33532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T13:41:07.132+05:30  INFO 33532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3662 ms
+2025-08-09T13:41:07.353+05:30  INFO 33532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T13:41:08.147+05:30  INFO 33532 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4142a18a
+2025-08-09T13:41:08.150+05:30  INFO 33532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T13:41:08.306+05:30  INFO 33532 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T13:41:08.470+05:30  INFO 33532 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2025-08-09T13:41:08.821+05:30  WARN 33532 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-08-09T13:41:09.111+05:30  INFO 33532 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2025-08-09T13:41:10.801+05:30  INFO 33532 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T13:41:10.819+05:30  INFO 33532 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T13:41:12.183+05:30  WARN 33532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T13:41:12.759+05:30 DEBUG 33532 --- [restartedMain] c.e.f.config.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2025-08-09T13:41:13.207+05:30  INFO 33532 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@570f3be2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28f8868e, org.springframework.security.web.context.SecurityContextHolderFilter@253656dc, org.springframework.security.web.header.HeaderWriterFilter@60751146, org.springframework.web.filter.CorsFilter@1aca40c4, org.springframework.security.web.authentication.logout.LogoutFilter@4db7c9c0, com.example.family.config.JwtAuthenticationFilter@4128a7c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@499e5f79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52961ce2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62aba87e, org.springframework.security.web.session.SessionManagementFilter@5646c6e2, org.springframework.security.web.access.ExceptionTranslationFilter@45fbe848, org.springframework.security.web.access.intercept.AuthorizationFilter@76712f32]
+2025-08-09T13:41:13.761+05:30  INFO 33532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-09T13:41:13.811+05:30  INFO 33532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-09T13:41:13.831+05:30  INFO 33532 --- [restartedMain] com.example.family.FamilyApplication     : Started FamilyApplication in 11.368 seconds (process running for 12.693)
+2025-08-09T13:41:17.651+05:30  INFO 33532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T13:41:17.653+05:30  INFO 33532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T13:41:17.654+05:30  INFO 33532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-09T13:41:17.662+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/login
+2025-08-09T13:41:17.698+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/login
+2025-08-09T13:41:17.712+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T13:41:17.725+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/login
+2025-08-09T13:41:18.065+05:30 DEBUG 33532 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getRelationTypes
+2025-08-09T13:41:18.076+05:30 DEBUG 33532 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getRelationTypes
+2025-08-09T13:41:18.111+05:30 DEBUG 33532 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getRelationTypes
+2025-08-09T13:41:18.207+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getUser?id=2
+2025-08-09T13:41:18.214+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getUser?id=2
+2025-08-09T13:41:18.222+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getUser?id=2
+2025-08-09T13:41:18.227+05:30  INFO 33532 --- [http-nio-8080-exec-6] c.e.family.controller.UserController     : Fetching user info for userId: 2
+2025-08-09T13:41:18.428+05:30 DEBUG 33532 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAncestors?id=2
+2025-08-09T13:41:18.447+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAncestors?id=2
+2025-08-09T13:41:18.457+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAncestors?id=2
+2025-08-09T13:41:18.459+05:30  INFO 33532 --- [http-nio-8080-exec-8] c.e.f.controller.UserRelationController  : Fetching Ancestors info for userId: 2
+2025-08-09T13:41:38.661+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAllUserRelations
+2025-08-09T13:41:38.733+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAllUserRelations
+2025-08-09T13:41:38.769+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAllUserRelations
+2025-08-09T13:54:36.896+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/login
+2025-08-09T13:54:36.901+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/login
+2025-08-09T13:54:36.901+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/login
+2025-08-09T13:54:36.938+05:30 DEBUG 33532 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getRelationTypes
+2025-08-09T13:54:36.943+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getRelationTypes
+2025-08-09T13:54:36.949+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getRelationTypes
+2025-08-09T13:54:36.970+05:30 DEBUG 33532 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getUser?id=2
+2025-08-09T13:54:36.970+05:30 DEBUG 33532 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getUser?id=2
+2025-08-09T13:54:36.979+05:30 DEBUG 33532 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getUser?id=2
+2025-08-09T13:54:36.981+05:30  INFO 33532 --- [http-nio-8080-exec-10] c.e.family.controller.UserController     : Fetching user info for userId: 2
+2025-08-09T13:54:36.996+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAncestors?id=2
+2025-08-09T13:54:37.001+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAncestors?id=2
+2025-08-09T13:54:37.004+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAncestors?id=2
+2025-08-09T13:54:37.004+05:30  INFO 33532 --- [http-nio-8080-exec-2] c.e.f.controller.UserRelationController  : Fetching Ancestors info for userId: 2
+2025-08-09T13:54:38.310+05:30 DEBUG 33532 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAllUserRelations
+2025-08-09T13:54:38.321+05:30 DEBUG 33532 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAllUserRelations
+2025-08-09T13:54:38.327+05:30 DEBUG 33532 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAllUserRelations
+2025-08-09T14:24:08.215+05:30  WARN 33532 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s50ms944µs500ns).
+2025-08-09T15:08:01.553+05:30  WARN 33532 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m38s994ms962µs300ns).
+2025-08-09T15:16:47.688+05:30 DEBUG 33532 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getRelationTypes
+2025-08-09T15:16:47.707+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getRelationTypes
+2025-08-09T15:16:47.720+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getRelationTypes
+2025-08-09T15:16:47.762+05:30 DEBUG 33532 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getUser?id=2
+2025-08-09T15:16:47.776+05:30 DEBUG 33532 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getUser?id=2
+2025-08-09T15:16:47.776+05:30 DEBUG 33532 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getUser?id=2
+2025-08-09T15:16:47.792+05:30  INFO 33532 --- [http-nio-8080-exec-10] c.e.family.controller.UserController     : Fetching user info for userId: 2
+2025-08-09T15:16:47.808+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAncestors?id=2
+2025-08-09T15:16:47.824+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAncestors?id=2
+2025-08-09T15:16:47.824+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAncestors?id=2
+2025-08-09T15:16:47.824+05:30  INFO 33532 --- [http-nio-8080-exec-2] c.e.f.controller.UserRelationController  : Fetching Ancestors info for userId: 2
+2025-08-09T15:16:49.562+05:30 DEBUG 33532 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAllUserRelations
+2025-08-09T15:16:49.567+05:30 DEBUG 33532 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAllUserRelations
+2025-08-09T15:16:49.575+05:30 DEBUG 33532 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAllUserRelations
+2025-08-09T15:17:23.524+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getRelationTypes
+2025-08-09T15:17:23.528+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getRelationTypes
+2025-08-09T15:17:23.537+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getRelationTypes
+2025-08-09T15:17:23.583+05:30 DEBUG 33532 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getUser?id=2
+2025-08-09T15:17:23.590+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getUser?id=2
+2025-08-09T15:17:23.595+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getUser?id=2
+2025-08-09T15:17:23.595+05:30  INFO 33532 --- [http-nio-8080-exec-8] c.e.family.controller.UserController     : Fetching user info for userId: 2
+2025-08-09T15:17:23.620+05:30 DEBUG 33532 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAncestors?id=2
+2025-08-09T15:17:23.630+05:30 DEBUG 33532 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAncestors?id=2
+2025-08-09T15:17:23.636+05:30 DEBUG 33532 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAncestors?id=2
+2025-08-09T15:17:23.638+05:30  INFO 33532 --- [http-nio-8080-exec-10] c.e.f.controller.UserRelationController  : Fetching Ancestors info for userId: 2
+2025-08-09T15:17:24.553+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/getAllUserRelations
+2025-08-09T15:17:24.565+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/getAllUserRelations
+2025-08-09T15:17:24.570+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/getAllUserRelations
+2025-08-09T15:19:42.192+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/forgot-password
+2025-08-09T15:19:42.197+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/forgot-password
+2025-08-09T15:19:42.197+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:19:42.197+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/forgot-password
+2025-08-09T15:19:59.809+05:30 DEBUG 33532 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/validate-reset-token?token=665e85f1-e8f5-4fbc-947f-45fe019fa71b
+2025-08-09T15:19:59.816+05:30 DEBUG 33532 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:19:59.822+05:30 DEBUG 33532 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/validate-reset-token?token=665e85f1-e8f5-4fbc-947f-45fe019fa71b
+2025-08-09T15:20:15.058+05:30 DEBUG 33532 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/reset-password
+2025-08-09T15:20:15.070+05:30 DEBUG 33532 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/reset-password
+2025-08-09T15:20:15.070+05:30 DEBUG 33532 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:20:15.070+05:30 DEBUG 33532 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/reset-password
+2025-08-09T15:20:22.014+05:30 DEBUG 33532 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/reset-password
+2025-08-09T15:20:22.020+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/reset-password
+2025-08-09T15:20:22.020+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:20:22.020+05:30 DEBUG 33532 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/reset-password
+2025-08-09T15:20:27.448+05:30 DEBUG 33532 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/reset-password
+2025-08-09T15:20:27.457+05:30 DEBUG 33532 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/reset-password
+2025-08-09T15:20:27.457+05:30 DEBUG 33532 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:20:27.457+05:30 DEBUG 33532 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/reset-password
+2025-08-09T15:26:13.830+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/validate-reset-token?token=665e85f1-e8f5-4fbc-947f-45fe019fa71b
+2025-08-09T15:26:13.832+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:26:13.832+05:30 DEBUG 33532 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/validate-reset-token?token=665e85f1-e8f5-4fbc-947f-45fe019fa71b
+2025-08-09T15:26:25.242+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/validate-reset-token?token=665e85f1-e8f5-4fbc-947f-45fe019fa71b
+2025-08-09T15:26:25.246+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:26:25.249+05:30 DEBUG 33532 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/validate-reset-token?token=665e85f1-e8f5-4fbc-947f-45fe019fa71b
+2025-08-09T15:26:43.687+05:30  INFO 33532 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T15:26:43.692+05:30  INFO 33532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T15:26:43.699+05:30  INFO 33532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-09T15:26:51.054+05:30  INFO 11512 --- [restartedMain] com.example.family.FamilyApplication     : Starting FamilyApplication using Java 23.0.2 with PID 11512 (C:\Users\pulim\IdeaProjects\updated\family-tree-app\target\classes started by pulim in C:\Users\pulim\IdeaProjects\updated\family-tree-app)
+2025-08-09T15:26:51.056+05:30 DEBUG 11512 --- [restartedMain] com.example.family.FamilyApplication     : Running with Spring Boot v3.0.0, Spring v6.0.2
+2025-08-09T15:26:51.058+05:30  INFO 11512 --- [restartedMain] com.example.family.FamilyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T15:26:51.165+05:30  INFO 11512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-09T15:26:51.165+05:30  INFO 11512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-09T15:26:52.687+05:30  INFO 11512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T15:26:52.814+05:30  INFO 11512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 6 JPA repository interfaces.
+2025-08-09T15:26:54.378+05:30  INFO 11512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T15:26:54.386+05:30  INFO 11512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T15:26:54.386+05:30  INFO 11512 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-08-09T15:26:54.520+05:30  INFO 11512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T15:26:54.528+05:30  INFO 11512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3363 ms
+2025-08-09T15:26:54.821+05:30  INFO 11512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T15:26:55.727+05:30  INFO 11512 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@217eccf9
+2025-08-09T15:26:55.727+05:30  INFO 11512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T15:26:55.969+05:30  INFO 11512 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T15:26:56.119+05:30  INFO 11512 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2025-08-09T15:26:56.404+05:30  WARN 11512 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-08-09T15:26:56.676+05:30  INFO 11512 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2025-08-09T15:26:58.309+05:30  INFO 11512 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T15:26:58.329+05:30  INFO 11512 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T15:26:59.526+05:30  WARN 11512 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T15:26:59.715+05:30 DEBUG 11512 --- [restartedMain] c.e.f.config.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2025-08-09T15:27:00.327+05:30  INFO 11512 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6eed4784, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@292b7b4d, org.springframework.security.web.context.SecurityContextHolderFilter@45fbe848, org.springframework.security.web.header.HeaderWriterFilter@2b82de16, org.springframework.web.filter.CorsFilter@4db7c9c0, org.springframework.security.web.authentication.logout.LogoutFilter@5b8ea893, com.example.family.config.JwtAuthenticationFilter@64b2bf3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60751146, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8f6fcfd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e30db3, org.springframework.security.web.session.SessionManagementFilter@35c0a66a, org.springframework.security.web.access.ExceptionTranslationFilter@42ff59e7, org.springframework.security.web.access.intercept.AuthorizationFilter@630490a4]
+2025-08-09T15:27:00.873+05:30  INFO 11512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-09T15:27:00.928+05:30  INFO 11512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-09T15:27:00.952+05:30  INFO 11512 --- [restartedMain] com.example.family.FamilyApplication     : Started FamilyApplication in 10.702 seconds (process running for 12.071)
+2025-08-09T15:27:13.186+05:30  INFO 11512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T15:27:13.186+05:30  INFO 11512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T15:27:13.192+05:30  INFO 11512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-09T15:27:13.213+05:30 DEBUG 11512 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/forgot-password
+2025-08-09T15:27:13.280+05:30 DEBUG 11512 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/forgot-password
+2025-08-09T15:27:13.295+05:30 DEBUG 11512 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:27:13.317+05:30 DEBUG 11512 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/forgot-password
+2025-08-09T15:27:30.945+05:30 DEBUG 11512 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/validate-reset-token?token=738c1c85-0646-4b44-b410-d6d02245b431
+2025-08-09T15:27:30.947+05:30 DEBUG 11512 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:27:30.955+05:30 DEBUG 11512 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/validate-reset-token?token=738c1c85-0646-4b44-b410-d6d02245b431
+2025-08-09T15:27:39.399+05:30 DEBUG 11512 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/reset-password
+2025-08-09T15:27:39.410+05:30 DEBUG 11512 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/reset-password
+2025-08-09T15:27:39.414+05:30 DEBUG 11512 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:27:39.416+05:30 DEBUG 11512 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/reset-password
+2025-08-09T15:29:02.858+05:30 DEBUG 11512 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/validate-reset-token?token=738c1c85-0646-4b44-b410-d6d02245b431
+2025-08-09T15:29:02.864+05:30 DEBUG 11512 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:29:02.872+05:30 DEBUG 11512 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/validate-reset-token?token=738c1c85-0646-4b44-b410-d6d02245b431
+2025-08-09T15:29:12.025+05:30 DEBUG 11512 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /myFamily/forgot-password
+2025-08-09T15:29:12.041+05:30 DEBUG 11512 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /myFamily/forgot-password
+2025-08-09T15:29:12.045+05:30 DEBUG 11512 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:29:12.045+05:30 DEBUG 11512 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /myFamily/forgot-password
+2025-08-09T15:29:23.061+05:30 DEBUG 11512 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /myFamily/validate-reset-token?token=6ef6cb46-3368-4c44-b679-0725546e9028
+2025-08-09T15:29:23.064+05:30 DEBUG 11512 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-09T15:29:23.067+05:30 DEBUG 11512 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /myFamily/validate-reset-token?token=6ef6cb46-3368-4c44-b679-0725546e9028

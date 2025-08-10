@@ -1,0 +1,236 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "Relationship Services APIs",
+    "description": "Mpnath Relationship Services APIs",
+    "license": {
+      "name": "relationship.com, Inc. 2024"
+    }
+  },
+  "host": "public.relationship.com",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/getAccountBalance": {
+      "get": {
+        "description": "Returns Account Balance of a member; Response includes all the accounts that a Member enrolled into; Below are the acceptable input parameter combinations -\n- companySourceRefId and (employeeId or employeeSourceRefId) \n\n- employeeId and (companyName or companySourceRefId or caCompanySourceRefId) \n\n- employeeSourceRefId and (companySourceRefId or caCompanySourceRefId) \n\n- planTypeIdList (optional) ",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "type": "string",
+            "default": "Authorization token value"
+          },
+          {
+            "in": "header",
+            "name": "x-amz-date",
+            "required": true,
+            "type": "string",
+            "default": "x-amz-date value"
+          },
+          {
+            "in": "header",
+            "name": "partner-id",
+            "required": true,
+            "type": "string",
+            "default": "global_partner_name"
+          },
+          {
+            "in": "query",
+            "name": "companySourceRefId",
+            "type": "string",
+            "required": true,
+            "default": "1207"
+          },
+          {
+            "in": "query",
+            "name": "employeeID",
+            "required": false,
+            "type": "string",
+            "default": "707996"
+          },
+          {
+            "in": "query",
+            "name": "employeeSourceRefId",
+            "required": false,
+            "type": "string",
+            "default": "23456"
+          },
+          {
+            "in": "query",
+            "name": "caCompanySourceRefId",
+            "type": "integer",
+            "default": 43
+          },
+          {
+            "in": "query",
+            "name": "caEmployeeSourceRefId",
+            "type": "integer",
+            "default": 28
+          },
+          {
+            "in": "query",
+            "name": "planTypeIdList",
+            "type": "string",
+            "default": "23456"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "An instance of account balance info.",
+            "schema": {
+              "required": [
+                "client"
+              ],
+              "properties": {
+                "client": {
+                  "required": [
+                    "companyName",
+                    "companySourceRefId",
+                    "caCompanySourceRefId",
+                    "employee"
+                  ],
+                  "properties": {
+                    "companyName": {
+                      "type": "string",
+                      "example": "BavarianMotorWorks"
+                    },
+                    "companySourceRefId": {
+                      "type": "string",
+                      "example": "1207"
+                    },
+                    "caCompanySourceRefId": {
+                      "type": "string",
+                      "example": "43"
+                    },
+                    "employee": {
+                      "required": [
+                        "employeeId",
+                        "employeeSourceRefId",
+                        "caEmployeeSourceRefId",
+                        "accounts"
+                      ],
+                      "properties": {
+                        "employeeId": {
+                          "type": "string",
+                          "example": "707996"
+                        },
+                        "employeeSourceRefId": {
+                          "type": "string",
+                          "example": "23456"
+                        },
+                        "caEmployeeSourceRefId": {
+                          "type": "string",
+                          "example": "43"
+                        },
+                        "accounts": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "planDesc": {
+                                "type": "string",
+                                "example": "Flexible Spending Account"
+                              },
+                              "planType": {
+                                "type": "string",
+                                "example": "FSA"
+                              },
+                              "carryoverDate": {
+                                "type": "string",
+                                "example": "2019-01-01"
+                              },
+                              "carryoverBalance": {
+                                "type": "number",
+                                "example": 10
+                              },
+                              "accountEffectiveDate": {
+                                "type": "string",
+                                "example": "2019-01-18"
+                              },
+                              "accountTerminationDate": {
+                                "type": "string",
+                                "example": "2019-12-31"
+                              },
+                              "supportsInvestments": {
+                                "type": "string",
+                                "example": "N"
+                              },
+                              "investedAmount": {
+                                "type": "string",
+                                "example": "0.00"
+                              },
+                              "investedDate": {
+                                "type": "string",
+                                "example": "2019-10-11"
+                              },
+                              "goalAmount": {
+                                "type": "number",
+                                "example": 0
+                              },
+                              "availableBalance": {
+                                "type": "number",
+                                "example": 0
+                              },
+                              "outstandingBalance": {
+                                "type": "number",
+                                "example": 0
+                              },
+                              "caAccountRefID": {
+                                "type": "integer",
+                                "example": 15
+                              },
+                              "accountStatusId": {
+                                "type": "string",
+                                "example": "Active"
+                              },
+                              "planGraceperiodEndDate": {
+                                "type": "string",
+                                "example": "2020-02-28"
+                              },
+                              "planCloseoutDate": {
+                                "type": "string",
+                                "example": "2019-12-31"
+                              },
+                              "planRunoutDate": {
+                                "type": "string",
+                                "example": "2020-02-28"
+                              },
+                              "lastDateToIncurClaims": {
+                                "type": "string",
+                                "example": "2020-02-28"
+                              },
+                              "lastDateToSubmitClaims": {
+                                "type": "string",
+                                "example": "2020-03-15"
+                              },
+                              "accountClosedDate": {
+                                "type": "string",
+                                "example": "2020-02-28"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "type": "object"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error Codes and description\n\n- ACBL001|Mandatory Parameter client_id is null or empty \n\n- ACBL002|Mandatory Parameter client_id not valid. it should not have any spaces or non-alphanumeric, non-underscore characters \n\n- ACBL003|Mandatory Parameter is missing : companyName/employeeId \n\n- Validation Failure: ACBL004|Input parameters validation failed. \n\n- ACBL005|User is not found. \n\n- Validation Failure: ACBL006|familyNum not found for given input combination."
+          }
+        }
+      }
+    }
+  }
+}
